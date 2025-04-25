@@ -18,6 +18,8 @@
       {
         "link-name": "off"
       }
-    ]
+    ],
+    "meta-viewport": "off",
+    "highest-available-document-mode": "off"
   }
 }
