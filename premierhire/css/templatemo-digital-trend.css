@@ -221,7 +221,7 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .navbar {
-    background: var(--menu-bg);
+    /* background: var(--menu-bg); */
     z-index: 2;
     top: 0;
     right: 0;
@@ -230,12 +230,12 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .navbar-brand {
-    color: var(--white-color);
+    color: var(--primary-color);
     font-size: var(--h2-font-size);
   }
 
   .nav-link {
-    color: var(--white-color);
+    color: var(--primary-color);
     font-size: var(--menu-font-size);
     letter-spacing: 0.4px;
     margin: 0 1.6em;
@@ -305,7 +305,7 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   .navbar-toggler .navbar-toggler-icon {
-    background: var(--white-color);
+    background: var(--primary-color);
     transition: background 10ms 300ms ease;
     display: block;
     width: 30px;
@@ -321,7 +321,7 @@ https://templatemo.com/tm-538-digital-trend
     position: absolute;
     right: 0;
     left: 0;
-    background: var(--white-color);
+    background: var(--primary-color);
     width: 30px;
     height: 2px;
     content: '';
@@ -673,6 +673,10 @@ https://templatemo.com/tm-538-digital-trend
       margin-top: 3em;
       padding: 0;
       text-align: left;
+    }
+
+    .navbar .container {
+      justify-content: center;
     }
   }
 
