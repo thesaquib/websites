@@ -1,13 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Talent Masters AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="shortcut icon" href="./fav.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+        }
+
+        .hero {
+            background-image: url('https://img.freepik.com/premium-photo/training-day-business-people-manager-working-their-new-project-classroom_146671-17380.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+
+        .section {
+            padding: 60px 0;
+        }
+
+        .section.bg-light {
+            background-color: #f8f9fa;
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .navbar-brand img {
+            height: 50px;
+        }
+
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #ffc107;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
-    <img src="./logo.png" alt="">
-    Coming Soon
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./logo.png" alt="Logo" />
+                Talent Masters AI
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1 class="display-4 animate__animated animate__fadeInDown">Welcome to Talent Masters AI</h1>
+            <p class="lead animate__animated animate__fadeInUp animate__delay-1s">Your trusted partner in intelligent IT
+                staffing solutions.</p>
+            <a href="#contact" class="btn btn-primary btn-lg animate__animated animate__fadeInUp animate__delay-2s">Get
+                Started</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center animate__animated animate__fadeIn">About Us</h2>
+            <p class="lead text-center animate__animated animate__fadeIn animate__delay-1s">
+                Talent Masters AI is a modern IT staffing firm combining technology, data, and human expertise. We
+                reshape hiring for both employers and candidates.
+            </p>
+            <div class="row">
+                <div class="col-md-6 animate__animated animate__fadeInLeft animate__delay-2s">
+                    <h4>Our Mission</h4>
+                    <ul>
+                        <li>Place the right talent in the right roles at the right time.</li>
+                        <li>Empower IT professionals with meaningful opportunities.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 animate__animated animate__fadeInRight animate__delay-2s">
+                    <h4>Why Choose Us</h4>
+                    <ul>
+                        <li>AI tools to analyze skills and predict performance.</li>
+                        <li>Industry specialists who understand tech hiring.</li>
+                        <li>Focused on quality, speed, and transparency.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center animate__animated animate__fadeIn">What We Do</h2>
+            <div class="row">
+                <div class="col-md-4 animate__animated animate__zoomIn animate__delay-1s">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/young-developer-working-computer_23-2148827219.jpg"
+                            class="card-img-top" alt="IT Staffing">
+                        <div class="card-body">
+                            <h5 class="card-title">IT Staffing & Talent Solutions</h5>
+                            <p class="card-text">Contract, contract-to-hire, and direct placement across software,
+                                cloud, cybersecurity, and more.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__zoomIn animate__delay-2s">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/ai-technology-brain-background-digital-transformation-concept_53876-124675.jpg"
+                            class="card-img-top" alt="AI Matching">
+                        <div class="card-body">
+                            <h5 class="card-title">AI-Powered Talent Matching</h5>
+                            <p class="card-text">Intelligent platform for accurate role matching, faster hiring, and
+                                higher retention.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 animate__animated animate__zoomIn animate__delay-3s">
+                    <div class="card">
+                        <img src="https://img.freepik.com/free-photo/business-team-analyzing-statistics-financial-concepts_53876-20667.jpg"
+                            class="card-img-top" alt="Consulting">
+                        <div class="card-body">
+                            <h5 class="card-title">Workforce Consulting</h5>
+                            <p class="card-text">Market insights, salary data, and strategic hiring plans tailored to
+                                your business.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="section text-center">
+        <div class="container">
+            <h2 class="animate__animated animate__fadeIn">Let’s Talk Tech Talent</h2>
+            <p class="lead animate__animated animate__fadeIn animate__delay-1s">Reach out to discover how we can help
+                you staff smarter and grow faster.</p>
+
+            <form id="contactForm" class="mt-4" style="max-width: 600px; margin: 0 auto;">
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Your Name" required />
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Your Email" required />
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <div id="formMessage" class="mt-3 text-danger" style="display: none;">
+                    Something went wrong, please try again later.
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Talent Masters AI. All rights reserved.</p>
+            <!-- <p><a href="mailto:contact@talentmastersai.com">contact@talentmastersai.com</a></p> -->
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
